@@ -78,7 +78,7 @@ export default function Location() {
               </span>
               <div>
                 <h3 className="text-xl font-serif font-bold uppercase tracking-wide text-cream">Работно време</h3>
-                <p className="text-cream/60">Всеки ден: 11:30 – 22:00</p>
+                <p className="text-cream/60">Всеки ден: 10:00 – 22:30</p>
               </div>
             </div>
           </div>
