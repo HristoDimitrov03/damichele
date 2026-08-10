@@ -15,23 +15,10 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl md:mt-0">
-        <motion.img
-          src="/images/logo.png"
-          alt=""
-          width={400}
-          height={400}
-          decoding="async"
-          role="presentation"
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
-          className="mx-auto mb-6 h-40 w-40 md:h-52 md:w-52 object-contain drop-shadow-[0_0_35px_rgba(212,175,55,0.25)]"
-        />
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
           className="text-5xl md:text-8xl font-serif font-bold text-cream mb-3 tracking-tight uppercase"
         >
           Da <span className="text-gold">Michele</span>
@@ -40,7 +27,7 @@ export default function Hero() {
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.35 }}
+          transition={{ duration: 0.8, delay: 0.15 }}
           className="text-gold-soft font-sans uppercase tracking-[0.5em] text-base md:text-xl mb-8 block"
         >
           Biga Family
@@ -49,7 +36,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
           className="text-lg md:text-2xl text-cream/90 mb-10 font-light tracking-wide max-w-2xl mx-auto"
         >
           Автентични ястия, приготвени с пресни, висококачествени продукти. Истинско пътешествие из вкусовете на Италия!
@@ -58,7 +45,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.65 }}
+          transition={{ duration: 0.8, delay: 0.45 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
