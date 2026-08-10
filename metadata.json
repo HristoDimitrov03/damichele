@@ -1,0 +1,5 @@
+{
+  "name": "Da Michele Biga Family",
+  "description": "An elegant dark-gold website for Da Michele Biga Family — authentic Neapolitan biga pizza in Sofia, with menu, reviews, and delivery links.",
+  "requestFramePermissions": ["geolocation"]
+}
