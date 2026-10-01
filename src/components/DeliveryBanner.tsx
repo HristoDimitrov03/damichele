@@ -21,7 +21,7 @@ export default function DeliveryBanner() {
             {SITE_NAME} у дома.
           </h2>
           <p className="text-cream/60 text-lg leading-relaxed font-light mb-8 max-w-lg mx-auto lg:mx-0">
-            Поръчайте през Takeaway или Wolt — за вкъщи или с доставка.
+            Поръчайте през Wolt — за вкъщи или с доставка.
           </p>
         </motion.div>
 
@@ -31,7 +31,7 @@ export default function DeliveryBanner() {
           viewport={{ once: true }}
           className="flex-1 w-full max-w-md"
         >
-          <DeliveryPlatforms className="grid sm:grid-cols-1 gap-4 w-full" showPhone={false} />
+          <DeliveryPlatforms className="grid sm:grid-cols-1 gap-4 w-full" />
         </motion.div>
       </div>
     </section>

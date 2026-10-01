@@ -3,9 +3,6 @@ export const SITE_NAME = 'Da Michele Biga Family';
 export const PHONE_DISPLAY = '0893 022 430';
 export const PHONE_TEL = '+359893022430';
 
-export const TAKEAWAY_URL =
-  'https://www.takeaway.com/bg/menu/da-michele-pizzeriapicariya-da-mikele-oc';
-
 export const WOLT_URL =
   'https://wolt.com/bg/bgr/sofia/restaurant/da-michele-sof';
 

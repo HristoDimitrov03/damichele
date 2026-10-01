@@ -114,7 +114,7 @@ export default function App() {
           >
             <h2 className="text-4xl md:text-6xl font-serif font-bold mb-8">Гладни ли сте?</h2>
             <p className="text-xl md:text-2xl mb-12 font-medium opacity-80">
-              Поръчайте за вкъщи през Takeaway или Wolt — или се обадете директно.
+              Поръчайте за вкъщи през Wolt — или се обадете директно.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <a

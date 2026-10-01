@@ -1,5 +1,5 @@
-import { ExternalLink, Phone, ShoppingBag, Truck } from 'lucide-react';
-import { PHONE_DISPLAY, PHONE_TEL, TAKEAWAY_URL, WOLT_URL } from '@/src/lib/site';
+import { ExternalLink, Phone, ShoppingBag } from 'lucide-react';
+import { PHONE_DISPLAY, PHONE_TEL, WOLT_URL } from '@/src/lib/site';
 
 type Props = {
   className?: string;
@@ -9,28 +9,6 @@ type Props = {
 export default function DeliveryPlatforms({ className, showPhone = true }: Props) {
   return (
     <div className={className}>
-      <a
-        href={TAKEAWAY_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-[#FF8000]/10 p-5 rounded-2xl border border-[#FF8000]/20 hover:border-[#FF8000]/50 transition-colors flex items-center gap-4 group"
-      >
-        <div className="bg-[#FF8000] w-12 h-12 rounded-full flex items-center justify-center shrink-0">
-          <Truck className="text-white" size={22} aria-hidden="true" />
-        </div>
-        <div className="flex-1">
-          <h3 className="text-lg font-serif font-bold text-cream group-hover:text-[#FF8000] transition-colors">
-            Takeaway.com
-          </h3>
-          <p className="text-cream/50 text-sm">Поръчай през Takeaway</p>
-        </div>
-        <ExternalLink
-          className="text-cream/30 group-hover:text-[#FF8000] transition-colors"
-          size={18}
-          aria-hidden="true"
-        />
-      </a>
-
       <a
         href={WOLT_URL}
         target="_blank"
