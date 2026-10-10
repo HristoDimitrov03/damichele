@@ -72,29 +72,6 @@ These values live in `src/lib/site.ts` and drive the navbar, footer, location se
 | Utilities | `clsx`, `tailwind-merge` |
 | Fonts | Google Fonts (Playfair Display, Karla) |
 
-## Getting started
-
-**Prerequisites:** Node.js and npm.
-
-```bash
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-```
-
-The dev server runs at **http://localhost:3009/**.
-
-### Scripts
-
-| Command | Description |
-| ------- | ----------- |
-| `npm run dev` | Start the Vite dev server on port 3009 |
-| `npm run build` | Create a production build |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Type-check with TypeScript (`tsc --noEmit`) |
-
 ## Project structure
 
 ```
@@ -129,7 +106,3 @@ damichele/
 
 - Phone, address, Wolt, Maps and social links are the restaurant's original details from when the site was built. The restaurant has closed; those links may no longer work.
 - This is a front-end only project with no backend or database.
-
-## Author
-
-Built by me as the developer of the Da Michele Biga Family website.
