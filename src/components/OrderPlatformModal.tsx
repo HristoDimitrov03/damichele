@@ -51,7 +51,7 @@ export default function OrderPlatformModal({ open, onClose }: Props) {
                 Поръчка
               </span>
               <h3 className="text-2xl sm:text-3xl font-serif font-bold text-cream leading-tight">
-                През коя платформа желаете да поръчате?
+                Как желаете да поръчате?
               </h3>
             </div>
 
