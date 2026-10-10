@@ -39,7 +39,7 @@ These values live in `src/lib/site.ts` and drive the navbar, footer, location se
 
 ### Mobile navigation
 
-![Full-screen mobile navigation with logo, section links, gold "Поръчай" button and Facebook/Instagram icons](docs/screenshots/03-mobile-nav.jpg)
+<img src="docs/screenshots/03-mobile-nav.jpg" alt="Full-screen mobile navigation with logo, section links, gold Поръчай button and Facebook/Instagram icons" width="280" />
 
 ## Features
 
